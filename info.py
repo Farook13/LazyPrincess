@@ -46,7 +46,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # LOG CHANNELS *
 LOG_CHANNEL = int(environ.get('-1002467149516', 0))
-LAZY_GROUP_LOGS = int(environ.get('LAZY_GROUP_LOGS', 0))
+LAZY_GROUP_LOGS = int(environ.get('https://t.me/batmanmoviehub', 0))
 
 # PREMIUM ACCESS *
 lazydownloaders = [int(lazydownloaders) if id_pattern.search(lazydownloaders) else lazydownloaders for lazydownloaders in environ.get('PRIME_DOWNLOADERS', '').split()]
