@@ -10,7 +10,7 @@ class script(object):
 
 <b>📌 Sᴜᴘᴘᴏʀᴛ : <a href=https://t.me/+XzVIX3lhqzAyYTQ1> 𝐎𝐓𝐓 𝐔𝐏𝐃𝐀𝐓𝐄𝐒 </a></b>
 
-<b>🍂 Oᴡɴᴇʀ : @https://t.me/Faroo_bruh</b>"""        
+<b>🍂 Oᴡɴᴇʀ : @Faroo_bruh</b>"""        
 
     HELP_TXT = """<b>Hᴇʏ {} 𝖨𝖺𝗆 𝖧𝖺𝗉𝗉𝗒 🖤 𝖳𝗈 𝖧𝖺𝗏𝖾 𝖸𝗈𝗎
     
