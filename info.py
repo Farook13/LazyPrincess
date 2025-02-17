@@ -157,7 +157,7 @@ MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 
 
 # Auto Delete For Group Message (Self Delete) #
-SELF_DELETE_SECONDS = int(environ.get('SELF_DELETE_SECONDS', 300))
+SELF_DELETE_SECONDS = int(environ.get('SELF_DELETE_SECONDS', 30))
 SELF_DELETE = environ.get('SELF_DELETE', True)
 if SELF_DELETE == "True":
     SELF_DELETE = True
@@ -166,12 +166,11 @@ DISCUSSION_TITLE = "Click Here"
 DISCUSSION_CHAT_USRNM = "Discusss_Here" #without @
 
 # Download Tutorial Button #
-DOWNLOAD_TEXT_NAME = "📥 HOW TO DOWNLOAD 📥"
-DOWNLOAD_TEXT_URL = "https://t.me/real_MoviesAdda3"
+
 
 # Custom Caption Under Button #
 CAPTION_BUTTON = "Get Updates"
-CAPTION_BUTTON_URL = "https://t.me/real_MoviesAdda3"
+CAPTION_BUTTON_URL = "https://t.me/batmanmoviehub"
 
 LOG_STR = "Current Cusomized Configurations are:-\n"
 LOG_STR += ("IMDB Results are enabled, Bot will be showing imdb details for you queries.\n" if IMDB else "IMBD Results are disabled.\n")
