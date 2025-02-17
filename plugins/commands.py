@@ -219,12 +219,6 @@ async def start(client, message):
                 text=f"👋 Hey {message.from_user.mention}\n\nDownload Link Generated  .\n\n",
                 reply_markup=InlineKeyboardMarkup(
                     [
-                        [
-                            InlineKeyboardButton('📁 ᴅᴏᴡɴʟᴏᴀᴅ 📁', url=)
-                        ],
-                        [
-                            InlineKeyboardButton('🎉 ʙᴜʏ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ : ʀᴇᴍᴏᴠᴇ ᴀᴅꜱ 🎊', callback_data="")
-                        ]
                     ]
                 )
             )
