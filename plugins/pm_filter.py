@@ -52,7 +52,6 @@ import logging
 logger = logging.getLogger(__name__)
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
-req_channel = REQ_CHANNEL
 BUTTONS = {}
 SPELL_CHECK = {}
 # 
