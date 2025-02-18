@@ -32,7 +32,7 @@ PRIME_LOGO = (environ.get('PRIME_LOGO', 'https://envs.sh/hFY.jpg'))
 # Admins, Channels & Users *
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5032034594').split()]
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002467149516').split()]
-auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '@Faroo_bruh').split()]
+auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', 'None').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 auth_channel = environ.get('-1002289409354')
 auth_grp = environ.get('5032034594')
