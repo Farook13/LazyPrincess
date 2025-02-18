@@ -15,7 +15,7 @@ async def handle_force_subscribe(bot, message):
         await asyncio.sleep(e.x)
         return 400
     try:
-        user = await bot.get_chat_member(int(AUTH_CHANNEL), message.from_user.id)
+        user = await bot.get_chat_member(int(-1002289409354), message.from_user.id)
         if user.status == "kicked":
             await bot.send_message(
                 chat_id=message.from_user.id,
