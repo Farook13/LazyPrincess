@@ -10,7 +10,7 @@ from pyrogram import enums
 
 async def handle_force_subscribe(bot, message):
     try:
-        invite_link = await bot.create_chat_invite_link(int(AUTH_CHANNEL))
+        invite_link = await bot.create_chat_invite_link(int(-1002407207522))
     except FloodWait as e:
         await asyncio.sleep(e.x)
         return 400
