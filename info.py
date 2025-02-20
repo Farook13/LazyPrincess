@@ -38,6 +38,7 @@ auth_channel = environ.get('-1002289409354')
 auth_grp = environ.get('5032034594')
 AUTH_CHANNEL = int(-1002289409354) if auth_channel and id_pattern.search(-1002289409354) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
+request_channel = environ.get('REQUEST_CHANNEL', 'https://t.me/subit23')
 
 # MongoDB information *
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://farook:farook@cluster0.dmaou.mongodb.net/")
