@@ -36,7 +36,7 @@ auth_users = [int(user) if id_pattern.search(user) else user for user in environ
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 auth_channel = environ.get('-1002289409354')
 auth_grp = environ.get('5032034594')
-AUTH_CHANNEL = int(-1002289409354) if auth_channel and id_pattern.search(-1002289409354) else None
+AUTH_CHANNEL = int('-1002289409354') if auth_channel and id_pattern.search(-1002289409354) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 request_channel = environ.get('REQUEST_CHANNEL', 'https://t.me/subit23')
 
